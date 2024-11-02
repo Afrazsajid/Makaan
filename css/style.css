@@ -1,10 +1,14 @@
 /********** Template CSS **********/
 :root {
-    --primary: #00B98E;
+    --primary: #3470ab;
     --secondary: #FF6922;
     --light: #EFFDF5;
     --dark: #0E2E50;
 }
+.icon img {
+    filter: hue-rotate(51deg) saturate(151%);
+  }
+  
 
 .back-to-top {
     position: fixed;
